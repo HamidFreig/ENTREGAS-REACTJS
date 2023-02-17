@@ -1,10 +1,12 @@
 import NavBar from "./components/FuncionalComponents/NavBarComponent/NavBar";
-import ItemListContainer from "./components/FuncionalComponents/ItemListContainer/ItemListContainer";
+import MenuContainer from "./components/FuncionalComponents/MenuContainer/MenuContainer";
+import { ItemListContainer } from "./pages/ItemListContainer/ItemListContainer";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+      <MenuContainer />
       <ItemListContainer />
     </div>
   );

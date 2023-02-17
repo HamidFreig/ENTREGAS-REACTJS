@@ -1,4 +1,4 @@
-import "./ItemListContainerStyle.css";
+import "./MenuContainerStyle.css";
 
 export default function MenuComponent() {
   return (
